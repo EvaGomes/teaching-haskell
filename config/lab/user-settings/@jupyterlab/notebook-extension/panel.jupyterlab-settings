@@ -11,7 +11,7 @@
             "name": "insert",
             "args": {},
             "command": "notebook:insert-cell-below",
-            "disabled": false,
+            "disabled": true,
             "icon": "ui-components:add",
             "rank": 20
         },
@@ -19,7 +19,7 @@
             "name": "delete-cell",
             "args": {},
             "command": "notebook:delete-cell",
-            "disabled": false,
+            "disabled": true,
             "rank": 20,
             "icon": "ui-components:delete"
         },
@@ -76,7 +76,7 @@
             "name": "cellType",
             "args": {},
             "command": "",
-            "disabled": false,
+            "disabled": true,
             "type": "spacer",
             "rank": 40
         },

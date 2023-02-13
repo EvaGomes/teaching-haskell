@@ -2,12 +2,5 @@
     "codeCellConfig": {
         "lineNumbers": true
     },
-    "defaultCell": "code",
-    "kernelShutdown": true,
-    "markdownCellConfig": {
-        "readOnly": true
-    },
-    "rawCellConfig": {
-        "readOnly": true
-    }
+    "defaultCell": "code"
 }

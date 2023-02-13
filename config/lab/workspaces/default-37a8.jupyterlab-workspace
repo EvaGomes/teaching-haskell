@@ -6,7 +6,8 @@
           "type": "tab-area",
           "currentIndex": 0,
           "widgets": [
-            "notebook:index.ipynb"
+            "notebook:index.ipynb",
+            "notebook:aula17.ipynb"
           ]
         },
         "current": "notebook:index.ipynb"
@@ -55,7 +56,12 @@
         "factory": "Notebook"
       }
     },
-    "workspace-ui:lastSave": "simple.jupyterlab-workspace"
+    "notebook:aula17.ipynb": {
+      "data": {
+        "path": "aula17.ipynb",
+        "factory": "Notebook"
+      }
+    }
   },
   "metadata": {
     "id": "default"
