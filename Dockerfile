@@ -1,4 +1,4 @@
 FROM gibiansky/ihaskell
-COPY index.ipynb /home/jovyan/src/index.ipynb
+COPY notebooks/ /home/jovyan/src/
 EXPOSE 8888
 CMD jupyter-lab --ip=0.0.0.0
