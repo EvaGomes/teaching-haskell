@@ -4,14 +4,16 @@
       "main": {
         "dock": {
           "type": "tab-area",
-          "currentIndex": 2,
+          "currentIndex": 1,
           "widgets": [
             "notebook:index.ipynb",
-            "notebook:aula17.ipynb",
-            "notebook:aula18.ipynb"
+            "notebook:aula24.ipynb",
+            "notebook:aula23.ipynb",
+            "notebook:aula18.ipynb",
+            "notebook:aula17.ipynb"
           ]
         },
-        "current": "notebook:aula18.ipynb"
+        "current": "notebook:index.ipynb"
       },
       "down": {
         "size": 0,
@@ -57,15 +59,27 @@
         "factory": "Notebook"
       }
     },
-    "notebook:aula17.ipynb": {
+    "notebook:aula24.ipynb": {
       "data": {
-        "path": "aula17.ipynb",
+        "path": "aula24.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:aula23.ipynb": {
+      "data": {
+        "path": "aula23.ipynb",
         "factory": "Notebook"
       }
     },
     "notebook:aula18.ipynb": {
       "data": {
         "path": "aula18.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:aula17.ipynb": {
+      "data": {
+        "path": "aula17.ipynb",
         "factory": "Notebook"
       }
     }

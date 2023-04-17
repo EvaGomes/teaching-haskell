@@ -58,6 +58,12 @@
         "factory": "Notebook"
       }
     },
+    "notebook:aula23.ipynb": {
+      "data": {
+        "path": "aula23.ipynb",
+        "factory": "Notebook"
+      }
+    },
     "notebook:aula18.ipynb": {
       "data": {
         "path": "aula18.ipynb",
@@ -67,12 +73,6 @@
     "notebook:aula17.ipynb": {
       "data": {
         "path": "aula17.ipynb",
-        "factory": "Notebook"
-      }
-    },
-    "notebook:aula23.ipynb": {
-      "data": {
-        "path": "aula23.ipynb",
         "factory": "Notebook"
       }
     }
