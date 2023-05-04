@@ -40,19 +40,6 @@
         0
       ]
     },
-    "@jupyterlab/settingeditor-extension:form-ui": {
-      "sizes": [
-        0.2474798387096774,
-        0.7525201612903226
-      ],
-      "container": {
-        "plugin": "@jupyterlab/notebook-extension:panel",
-        "sizes": [
-          0.5,
-          0.5
-        ]
-      }
-    },
     "notebook:index.ipynb": {
       "data": {
         "path": "index.ipynb",

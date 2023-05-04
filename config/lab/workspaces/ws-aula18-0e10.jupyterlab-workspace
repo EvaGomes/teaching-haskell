@@ -4,13 +4,14 @@
       "main": {
         "dock": {
           "type": "tab-area",
-          "currentIndex": 2,
+          "currentIndex": 1,
           "widgets": [
             "notebook:index.ipynb",
-            "notebook:aula17.ipynb",
-            "notebook:aula18.ipynb"
+            "notebook:aula18.ipynb",
+            "notebook:aula17.ipynb"
           ]
-        }
+        },
+        "current": "notebook:aula18.ipynb"
       },
       "down": {
         "size": 0,
@@ -37,28 +38,9 @@
         0
       ]
     },
-    "@jupyterlab/settingeditor-extension:form-ui": {
-      "sizes": [
-        0.2474798387096774,
-        0.7525201612903226
-      ],
-      "container": {
-        "plugin": "@jupyterlab/notebook-extension:panel",
-        "sizes": [
-          0.5,
-          0.5
-        ]
-      }
-    },
     "notebook:index.ipynb": {
       "data": {
         "path": "index.ipynb",
-        "factory": "Notebook"
-      }
-    },
-    "notebook:aula17.ipynb": {
-      "data": {
-        "path": "aula17.ipynb",
         "factory": "Notebook"
       }
     },
@@ -67,9 +49,15 @@
         "path": "aula18.ipynb",
         "factory": "Notebook"
       }
+    },
+    "notebook:aula17.ipynb": {
+      "data": {
+        "path": "aula17.ipynb",
+        "factory": "Notebook"
+      }
     }
   },
   "metadata": {
-    "id": "default"
+    "id": "ws-aula18"
   }
 }
