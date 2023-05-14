@@ -8,6 +8,7 @@
           "widgets": [
             "notebook:index.ipynb",
             "notebook:aula26.ipynb",
+            "notebook:aula25-sol.ipynb",
             "notebook:aula24.ipynb",
             "notebook:aula23.ipynb",
             "notebook:aula18.ipynb",
@@ -50,6 +51,12 @@
     "notebook:aula26.ipynb": {
       "data": {
         "path": "aula26.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:aula25-sol.ipynb": {
+      "data": {
+        "path": "aula25-sol.ipynb",
         "factory": "Notebook"
       }
     },

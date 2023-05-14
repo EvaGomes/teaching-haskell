@@ -7,10 +7,14 @@
           "currentIndex": 1,
           "widgets": [
             "notebook:index.ipynb",
-            "notebook:experiencias.ipynb"
+            "notebook:aula25-sol.ipynb",
+            "notebook:aula24.ipynb",
+            "notebook:aula23.ipynb",
+            "notebook:aula18.ipynb",
+            "notebook:aula17.ipynb"
           ]
         },
-        "current": "notebook:experiencias.ipynb"
+        "current": "notebook:aula25-sol.ipynb"
       },
       "down": {
         "size": 0,
@@ -43,14 +47,38 @@
         "factory": "Notebook"
       }
     },
-    "notebook:experiencias.ipynb": {
+    "notebook:aula25-sol.ipynb": {
       "data": {
-        "path": "experiencias.ipynb",
+        "path": "aula25-sol.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:aula24.ipynb": {
+      "data": {
+        "path": "aula24.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:aula23.ipynb": {
+      "data": {
+        "path": "aula23.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:aula18.ipynb": {
+      "data": {
+        "path": "aula18.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:aula17.ipynb": {
+      "data": {
+        "path": "aula17.ipynb",
         "factory": "Notebook"
       }
     }
   },
   "metadata": {
-    "id": "ws-exp"
+    "id": "ws-aula25sol"
   }
 }
