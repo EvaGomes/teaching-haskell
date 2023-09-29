@@ -6,7 +6,7 @@
           "type": "tab-area",
           "currentIndex": 0,
           "widgets": [
-            "notebook:index.ipynb",
+            "notebook:olá.ipynb",
             "notebook:aula17.ipynb",
             "notebook:aula18.ipynb",
             "notebook:aula23.ipynb",
@@ -16,7 +16,7 @@
             "notebook:experiencias.ipynb"
           ]
         },
-        "current": "notebook:index.ipynb"
+        "current": "notebook:olá.ipynb"
       },
       "down": {
         "size": 0,
@@ -43,9 +43,9 @@
         0
       ]
     },
-    "notebook:index.ipynb": {
+    "notebook:olá.ipynb": {
       "data": {
-        "path": "index.ipynb",
+        "path": "olá.ipynb",
         "factory": "Notebook"
       }
     },
