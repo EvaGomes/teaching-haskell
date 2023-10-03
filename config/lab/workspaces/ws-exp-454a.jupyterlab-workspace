@@ -6,7 +6,7 @@
           "type": "tab-area",
           "currentIndex": 1,
           "widgets": [
-            "notebook:index.ipynb",
+            "notebook:ÍNDICE.ipynb",
             "notebook:experiencias.ipynb"
           ]
         },
@@ -37,9 +37,9 @@
         0
       ]
     },
-    "notebook:index.ipynb": {
+    "notebook:ÍNDICE.ipynb": {
       "data": {
-        "path": "index.ipynb",
+        "path": "ÍNDICE.ipynb",
         "factory": "Notebook"
       }
     },
