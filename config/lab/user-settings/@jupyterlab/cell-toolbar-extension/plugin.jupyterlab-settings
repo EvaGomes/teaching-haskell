@@ -1,4 +1,11 @@
 {
+    // Cell Toolbar
+    // @jupyterlab/cell-toolbar-extension:plugin
+    // Cell Toolbar Settings.
+    // *****************************************
+
+    // List of toolbar items
+    // An item is defined by a 'name', a 'command' name, and an 'icon' name
     "toolbar": [
         {
             "name": "cellType",
@@ -39,14 +46,14 @@
             "name": "insert-cell-below",
             "args": {},
             "command": "notebook:insert-cell-below",
-            "disabled": true,
+            "disabled": false,
             "icon": "ui-components:add",
             "rank": 50
         },
         {
             "args": {},
             "command": "notebook:delete-cell",
-            "disabled": true,
+            "disabled": false,
             "rank": 50,
             "icon": "ui-components:delete",
             "name": "delete-cell"
