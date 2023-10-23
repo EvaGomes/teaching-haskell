@@ -14,3 +14,4 @@ Para experimentar:
 - ano2aula2: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EvaGomes/teaching-haskell/ano2aula2?urlpath=lab/workspaces/ws-ano2aula2)
 - ano2aula3: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EvaGomes/teaching-haskell/ano2aula3?urlpath=lab/workspaces/ws-ano2aula3)
 - ano2aula5: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EvaGomes/teaching-haskell/ano2aula5?urlpath=lab/workspaces/ws-ano2aula5)
+- ano2aula5: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EvaGomes/teaching-haskell/ano2aula6?urlpath=lab/workspaces/ws-ano2aula6)
