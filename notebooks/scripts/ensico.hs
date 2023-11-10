@@ -13,3 +13,8 @@ import Data.List
 --- Operator |> ---
 
 (|>) = flip ($)
+
+------------------
+--- Operator # ---
+
+a # b = a `zip` b
