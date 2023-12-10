@@ -13,7 +13,7 @@
             "notebook:aula24.ipynb",
             "notebook:aula26.ipynb",
             "notebook:ano2aula3.ipynb",
-            "notebook:experiencias.ipynb"
+            "notebook:experiências.ipynb"
           ]
         },
         "current": "notebook:olá.ipynb"
@@ -85,9 +85,9 @@
         "factory": "Notebook"
       }
     },
-    "notebook:experiencias.ipynb": {
+    "notebook:experiências.ipynb": {
       "data": {
-        "path": "experiencias.ipynb",
+        "path": "experiências.ipynb",
         "factory": "Notebook"
       }
     }

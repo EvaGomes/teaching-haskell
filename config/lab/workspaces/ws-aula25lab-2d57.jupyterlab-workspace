@@ -7,14 +7,14 @@
           "currentIndex": 1,
           "widgets": [
             "notebook:index.ipynb",
-            "notebook:experiencias.ipynb",
+            "notebook:experiências.ipynb",
             "notebook:aula24.ipynb",
             "notebook:aula23.ipynb",
             "notebook:aula18.ipynb",
             "notebook:aula17.ipynb"
           ]
         },
-        "current": "notebook:experiencias.ipynb"
+        "current": "notebook:experiências.ipynb"
       },
       "down": {
         "size": 0,
@@ -60,9 +60,9 @@
         "factory": "Notebook"
       }
     },
-    "notebook:experiencias.ipynb": {
+    "notebook:experiências.ipynb": {
       "data": {
-        "path": "experiencias.ipynb",
+        "path": "experiências.ipynb",
         "factory": "Notebook"
       }
     },
