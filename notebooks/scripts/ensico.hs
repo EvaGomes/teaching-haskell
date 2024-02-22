@@ -18,3 +18,10 @@ import Data.List
 --- Operator # ---
 
 a # b = a `zip` b
+
+------------------
+--- Function pp (Pretty-Printing) ---
+
+pp = putStr
+
+
