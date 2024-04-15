@@ -20,6 +20,12 @@ import Data.List
 a # b = a `zip` b
 
 ------------------
+--- Function get ---
+
+get :: Int -> [a] -> a
+get i list = list !! i
+
+------------------
 --- Function pp (Pretty-Printing) ---
 
 pp = putStr
