@@ -10,5 +10,12 @@
 
     // Scrollbar Theming
     // Enable/disable styling of the application scrollbars
-    "theme-scrollbars": false
+    "theme-scrollbars": false,
+
+    // Theme CSS Overrides
+    // Override theme CSS variables by setting key-value pairs here
+    "overrides": {
+        "code-font-size": "20px",
+        "content-font-size1": "15px"
+    }
 }
