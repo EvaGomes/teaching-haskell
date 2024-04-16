@@ -6,10 +6,10 @@
           "type": "tab-area",
           "currentIndex": 0,
           "widgets": [
-            "notebook:index.ipynb"
+            "notebook:olá.ipynb"
           ]
         },
-        "current": "notebook:index.ipynb"
+        "current": "notebook:olá.ipynb"
       },
       "down": {
         "size": 0,
@@ -36,26 +36,12 @@
         0
       ]
     },
-    "@jupyterlab/settingeditor-extension:form-ui": {
-      "sizes": [
-        0.2474798387096774,
-        0.7525201612903226
-      ],
-      "container": {
-        "plugin": "@jupyterlab/notebook-extension:panel",
-        "sizes": [
-          0.5,
-          0.5
-        ]
-      }
-    },
-    "notebook:index.ipynb": {
+    "notebook:olá.ipynb": {
       "data": {
-        "path": "index.ipynb",
+        "path": "olá.ipynb",
         "factory": "Notebook"
       }
-    },
-    "workspace-ui:lastSave": "simple.jupyterlab-workspace"
+    }
   },
   "metadata": {
     "id": "default"
