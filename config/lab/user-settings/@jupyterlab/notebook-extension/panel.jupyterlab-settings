@@ -23,14 +23,14 @@
             "name": "save",
             "args": {},
             "command": "",
-            "disabled": false,
+            "disabled": true,
             "rank": 10
         },
         {
             "name": "insert",
             "args": {},
             "command": "notebook:insert-cell-below",
-            "disabled": true,
+            "disabled": false,
             "icon": "ui-components:add",
             "rank": 20
         },
@@ -38,7 +38,7 @@
             "name": "delete-cell",
             "args": {},
             "command": "notebook:delete-cell",
-            "disabled": true,
+            "disabled": false,
             "rank": 20,
             "icon": "ui-components:delete"
         },
@@ -95,7 +95,7 @@
             "name": "cellType",
             "args": {},
             "command": "",
-            "disabled": true,
+            "disabled": false,
             "type": "spacer",
             "rank": 40
         },
