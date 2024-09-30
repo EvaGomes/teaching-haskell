@@ -1,0 +1,66 @@
+{
+  "data": {
+    "layout-restorer:data": {
+      "main": {
+        "dock": {
+          "type": "tab-area",
+          "currentIndex": 1,
+          "widgets": [
+            "notebook:ÍNDICE.ipynb",
+            "notebook:ano3aula3.ipynb",
+            "notebook:experiências.ipynb"
+          ]
+        },
+        "current": "notebook:ano3aula3.ipynb"
+      },
+      "down": {
+        "size": 0,
+        "widgets": []
+      },
+      "left": {
+        "collapsed": true,
+        "widgets": [
+          "filebrowser",
+          "jp-property-inspector",
+          "running-sessions",
+          "command-palette",
+          "@jupyterlab/toc:plugin",
+          "debugger-sidebar"
+        ]
+      },
+      "right": {
+        "collapsed": true,
+        "widgets": []
+      },
+      "relativeSizes": [
+        0,
+        1,
+        0
+      ]
+    },
+    "file-browser-filebrowser:cwd": {
+      "path": ""
+    },
+    "notebook:ÍNDICE.ipynb": {
+      "data": {
+        "path": "ÍNDICE.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:ano3aula3.ipynb": {
+      "data": {
+        "path": "ano3aula3.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:experiências.ipynb": {
+      "data": {
+        "path": "experiências.ipynb",
+        "factory": "Notebook"
+      }
+    }
+  },
+  "metadata": {
+    "id": "default"
+  }
+}
