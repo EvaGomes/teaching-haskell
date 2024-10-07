@@ -6,7 +6,8 @@
           "type": "tab-area",
           "currentIndex": 0,
           "widgets": [
-            "notebook:olá.ipynb"
+            "notebook:olá.ipynb",
+            "notebook:experiências.ipynb"
           ]
         },
         "current": "notebook:olá.ipynb"
@@ -39,6 +40,12 @@
     "notebook:olá.ipynb": {
       "data": {
         "path": "olá.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:experiências.ipynb": {
+      "data": {
+        "path": "experiências.ipynb",
         "factory": "Notebook"
       }
     }
