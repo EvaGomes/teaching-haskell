@@ -1,1 +1,70 @@
-{"data":{"layout-restorer:data":{"main":{"dock":{"type":"tab-area","currentIndex":3,"widgets":["notebook:olá.ipynb","notebook:ano1aula22.ipynb","notebook:ano1aula23.ipynb","notebook:experiências.ipynb"]},"current":"notebook:experiências.ipynb"},"down":{"size":0,"widgets":[]},"left":{"collapsed":true,"widgets":["filebrowser","jp-property-inspector","running-sessions","command-palette","@jupyterlab/toc:plugin","debugger-sidebar"]},"right":{"collapsed":true,"widgets":[]},"relativeSizes":[0,1,0]},"notebook:olá.ipynb":{"data":{"path":"olá.ipynb","factory":"Notebook"}},"notebook:ano1aula22.ipynb":{"data":{"path":"ano1aula22.ipynb","factory":"Notebook"}},"notebook:ano1aula23.ipynb":{"data":{"path":"ano1aula23.ipynb","factory":"Notebook"}},"notebook:experiências.ipynb":{"data":{"path":"experiências.ipynb","factory":"Notebook"}}},"metadata":{"id":"ws-ano1aula24"}}
+{
+  "data": {
+    "layout-restorer:data": {
+      "main": {
+        "dock": {
+          "type": "tab-area",
+          "currentIndex": 3,
+          "widgets": [
+            "notebook:olá.ipynb",
+            "notebook:ano1aula22.ipynb",
+            "notebook:ano1aula23.ipynb",
+            "notebook:experiências.ipynb"
+          ]
+        },
+        "current": "notebook:experiências.ipynb"
+      },
+      "down": {
+        "size": 0,
+        "widgets": []
+      },
+      "left": {
+        "collapsed": true,
+        "widgets": [
+          "filebrowser",
+          "jp-property-inspector",
+          "running-sessions",
+          "command-palette",
+          "@jupyterlab/toc:plugin",
+          "debugger-sidebar"
+        ]
+      },
+      "right": {
+        "collapsed": true,
+        "widgets": []
+      },
+      "relativeSizes": [
+        0,
+        1,
+        0
+      ]
+    },
+    "notebook:olá.ipynb": {
+      "data": {
+        "path": "olá.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:ano1aula22.ipynb": {
+      "data": {
+        "path": "ano1aula22.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:ano1aula23.ipynb": {
+      "data": {
+        "path": "ano1aula23.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "notebook:experiências.ipynb": {
+      "data": {
+        "path": "experiências.ipynb",
+        "factory": "Notebook"
+      }
+    }
+  },
+  "metadata": {
+    "id": "ws-ano1aula24"
+  }
+}
