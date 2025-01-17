@@ -7,11 +7,11 @@
           "currentIndex": 1,
           "widgets": [
             "notebook:ÍNDICE.ipynb",
-            "notebook:ano3aula3.ipynb",
+            "notebook:ano3aula13.ipynb",
             "notebook:experiências.ipynb"
           ]
         },
-        "current": "notebook:ano3aula3.ipynb"
+        "current": "notebook:ano3aula13.ipynb"
       },
       "down": {
         "size": 0,
@@ -47,9 +47,9 @@
         "factory": "Notebook"
       }
     },
-    "notebook:ano3aula3.ipynb": {
+    "notebook:ano3aula13.ipynb": {
       "data": {
-        "path": "ano3aula3.ipynb",
+        "path": "ano3aula13.ipynb",
         "factory": "Notebook"
       }
     },
@@ -61,6 +61,6 @@
     }
   },
   "metadata": {
-    "id": "default"
+    "id": "ws-2425ano3aula13"
   }
 }
