@@ -39,8 +39,8 @@
             "args": {},
             "command": "notebook:delete-cell",
             "disabled": false,
-            "rank": 20,
-            "icon": "ui-components:delete"
+            "icon": "ui-components:delete",
+            "rank": 20
         },
         {
             "name": "cut",
@@ -96,24 +96,21 @@
             "args": {},
             "command": "",
             "disabled": false,
-            "type": "spacer",
             "rank": 40
         },
         {
             "name": "spacer",
             "args": {},
-            "command": "",
+            "type": "spacer",
             "disabled": false,
-            "rank": 100,
-            "type": "spacer"
+            "rank": 100
         },
         {
             "name": "kernelName",
             "args": {},
             "command": "",
             "disabled": false,
-            "rank": 1000,
-            "type": "spacer"
+            "rank": 1000
         },
         {
             "name": "kernelStatus",
@@ -123,11 +120,11 @@
             "rank": 1001
         },
         {
+            "name": "executionProgress",
             "args": {},
             "command": "",
             "disabled": false,
-            "rank": 1002,
-            "name": "executionProgress"
+            "rank": 1002
         }
     ]
 }

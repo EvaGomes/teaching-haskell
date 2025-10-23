@@ -15,7 +15,6 @@
     // The default type (markdown, code, or raw) for new cells
     "defaultCell": "code",
 
-
     // Shut down kernel
     // Whether to shut down or not the kernel when closing a notebook.
     "kernelShutdown": false
