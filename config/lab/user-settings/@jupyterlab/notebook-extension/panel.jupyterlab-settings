@@ -74,14 +74,14 @@
             "name": "interrupt",
             "args": {},
             "command": "kernelmenu:interrupt",
-            "disabled": true,
+            "disabled": false,
             "rank": 31
         },
         {
             "name": "restart",
             "args": {},
             "command": "kernelmenu:restart",
-            "disabled": false,
+            "disabled": true,
             "rank": 32
         },
         {
