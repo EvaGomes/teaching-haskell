@@ -10,7 +10,7 @@ import Prelude hiding ((>>))
 import Data.Char
 import Data.List
 
-done = putStrLn "Feito!"
+done = putStrLn "Preparado!"
 
 -------------------
 --- Operator |> ---
