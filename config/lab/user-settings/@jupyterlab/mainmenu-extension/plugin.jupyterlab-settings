@@ -6,7 +6,17 @@
 
   "menus": [
     {
-  //    "disabled": false,
+      "id": "ensico-custom-file",
+      "label": "File",
+      "rank": 1,
+      "items": [
+        { "command": "filebrowser:open-path" },
+        { "command": "docmanager:download" },
+        { "command": "apputils:print" }
+      ]
+    },
+    {
+      "disabled": true,
       "id": "jp-mainmenu-file",
       "label": "File",
       "rank": 1,
@@ -82,29 +92,29 @@
   //      { "type": "separator", "rank": 2 },
   //      { "command": "notebook:delete-cell", "rank": 3 },
   //      { "type": "separator", "rank": 3 },
-  //      { "command": "notebook:select-all", "rank": 4 },
-  //      { "command": "notebook:deselect-all", "rank": 4 },
+        { "disabled": true, "command": "notebook:select-all", "rank": 4 },
+        { "disabled": true, "command": "notebook:deselect-all", "rank": 4 },
   //      { "type": "separator", "rank": 4 },
-  //      { "command": "notebook:move-cell-up", "rank": 5 },
-  //      { "command": "notebook:move-cell-down", "rank": 5 },
+        { "disabled": true, "command": "notebook:move-cell-up", "rank": 5 },
+        { "disabled": true, "command": "notebook:move-cell-down", "rank": 5 },
   //      { "type": "separator", "rank": 5 },
-  //      { "command": "notebook:split-cell-at-cursor", "rank": 6 },
-  //      { "command": "notebook:merge-cells", "rank": 6 },
-  //      { "command": "notebook:merge-cell-above", "rank": 6 },
-  //      { "command": "notebook:merge-cell-below", "rank": 6 },
+        { "disabled": true, "command": "notebook:split-cell-at-cursor", "rank": 6 },
+        { "disabled": true, "command": "notebook:merge-cells", "rank": 6 },
+        { "disabled": true, "command": "notebook:merge-cell-above", "rank": 6 },
+        { "disabled": true, "command": "notebook:merge-cell-below", "rank": 6 },
   //      { "type": "separator", "rank": 6 },
   //      { "command": "editmenu:clear-current", "rank": 7 },
   //      { "command": "editmenu:clear-all", "rank": 7 },
   //      { "type": "separator", "rank": 7 },
-  //      { "command": "documentsearch:start", "rank": 8 },
-  //      { "command": "documentsearch:highlightNext", "rank": 8 },
-  //      { "command": "documentsearch:highlightPrevious", "rank": 8 },
+        { "disabled": true, "command": "documentsearch:start", "rank": 8 },
+        { "disabled": true, "command": "documentsearch:highlightNext", "rank": 8 },
+        { "disabled": true, "command": "documentsearch:highlightPrevious", "rank": 8 },
   //      { "type": "separator", "rank": 8 },
   //      { "command": "editmenu:go-to-line", "rank": 9 }
       ]
     },
     {
-  //    "disabled": false,
+      "disabled": true,
       "id": "jp-mainmenu-view",
       "label": "View",
       "rank": 3,
@@ -149,7 +159,7 @@
       ]
     },
     {
-  //    "disabled": false,
+      "disabled": true,
       "id": "jp-mainmenu-run",
       "label": "Run",
       "rank": 4,
@@ -170,7 +180,7 @@
       ]
     },
     {
-  //    "disabled": false,
+      "disabled": true,
       "id": "jp-mainmenu-kernel",
       "label": "Kernel",
       "rank": 5,
@@ -193,7 +203,7 @@
       ]
     },
     {
-  //    "disabled": false,
+      "disabled": true,
       "id": "jp-mainmenu-tabs",
       "label": "Tabs",
       "rank": 6,
@@ -207,7 +217,21 @@
       ]
     },
     {
-  //    "disabled": false,
+      "id": "ensico-custom-settings",
+      "label": "Settings",
+      "rank": 7,
+      "items": [
+        { "command": "application:toggle-presentation-mode" },
+        { "type": "separator" },
+        { "command": "apputils:incr-font-size", "args": { "key": "code-font-size" } },
+        { "command": "apputils:decr-font-size", "args": { "key": "code-font-size" } },
+        { "type": "separator" },
+        { "command": "apputils:incr-font-size", "args": { "key": "ui-font-size1" } },
+        { "command": "apputils:decr-font-size", "args": { "key": "ui-font-size1" } },
+      ]
+    },
+    {
+      "disabled": true,
       "id": "jp-mainmenu-settings",
       "label": "Settings",
       "rank": 7,
@@ -346,7 +370,15 @@
       ]
     },
     {
-  //    "disabled": false,
+      "id": "ensico-custom-help",
+      "label": "Help",
+      "rank": 8,
+      "items": [
+        { "command": "help:about" },
+      ]
+    },
+    {
+      "disabled": true,
       "id": "jp-mainmenu-help",
       "label": "Help",
       "rank": 8,
