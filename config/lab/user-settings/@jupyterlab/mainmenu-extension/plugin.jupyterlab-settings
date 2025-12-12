@@ -1,0 +1,368 @@
+{
+  // Main Menu
+  // @jupyterlab/mainmenu-extension:plugin
+  // Main JupyterLab menu settings.
+  // *************************************
+
+  "menus": [
+    {
+  //    "disabled": false,
+      "id": "jp-mainmenu-file",
+      "label": "File",
+      "rank": 1,
+      "items": [
+  //      {  "type": "submenu", "rank": 0,
+  //        "submenu": {
+  //          "id": "jp-mainmenu-file-new",
+  //          "label": "New",
+  //          "items": [
+  //            { "command": "console:create", "rank": 1 },
+  //            { "command": "notebook:create-new", "rank": 10 }
+  //          ]
+  //        }
+  //      },
+  //      { "command": "filebrowser:create-main-launcher", "rank": 0 },
+  //      { "type": "separator", "rank": 0 },
+  //      { "command": "filebrowser:open-path", "rank": 1 },
+  //      { "command": "filebrowser:open-url", "rank": 1 },
+  //      { "type": "separator", "rank": 1 },
+  //      { "command": "docmanager:clone", "rank": 2 },
+  //      { "command": "filemenu:create-console", "rank": 2 },
+  //      { "type": "separator", "rank": 2 },
+  //      { "command": "application:close", "rank": 3 },
+  //      { "command": "filemenu:close-and-cleanup", "rank": 3 },
+  //      { "command": "application:close-all", "rank": 3 },
+  //      { "type": "separator", "rank": 3 },
+  //      { "command": "docmanager:save", "rank": 4 },
+  //      { "command": "docmanager:save-as", "rank": 4 },
+  //      { "command": "docmanager:save-all", "rank": 4 },
+  //      { "type": "separator", "rank": 4 },
+  //      { "command": "docmanager:reload", "rank": 5 },
+  //      { "command": "docmanager:restore-checkpoint", "rank": 5 },
+  //      { "command": "docmanager:rename", "rank": 5 },
+  //      { "type": "separator", "rank": 5 },
+  //      { "command": "docmanager:download", "rank": 6 },
+  //      { "type": "separator", "rank": 6 },
+  //      { "type": "submenu", "rank": 7,
+  //        "submenu": {
+  //          "id": "jp-mainmenu-file-notebookexport",
+  //          "label": "Save and Export Notebook As…"
+  //        }
+  //      },
+  //      { "type": "separator", "rank": 7 },
+  //      { "command": "workspace-ui:save-as", "rank": 8 },
+  //      { "command": "workspace-ui:save", "rank": 8 },
+  //      { "type": "separator", "rank": 8 },
+  //      { "command": "apputils:print", "rank": 9 },
+  //      { "type": "separator", "rank": 9 },
+  //      { "command": "filemenu:logout", "rank": 10 },
+  //      { "command": "filemenu:shutdown", "rank": 10 },
+  //      { "type": "separator", "rank": 10 }, ???
+  //      { "command": "hub:control-panel", "rank": 100 }, ???
+  //      { "command": "hub:logout", "rank": 100 } ???
+      ]
+    },
+    {
+  //    "disabled": false,
+      "id": "jp-mainmenu-edit",
+      "label": "Edit",
+      "rank": 2,
+      "items": [
+  //      { "command": "editmenu:undo", "rank": 0 },
+  //      { "command": "editmenu:redo", "rank": 0 },
+  //      { "type": "separator", "rank": 0 },
+  //      { "command": "notebook:undo-cell-action", "rank": 1 },
+  //      { "command": "notebook:redo-cell-action", "rank": 1 },
+  //      { "type": "separator", "rank": 1 },
+  //      { "command": "notebook:cut-cell", "rank": 2 },
+  //      { "command": "notebook:copy-cell", "rank": 2 },
+  //      { "command": "notebook:paste-cell-below", "rank": 2 },
+  //      { "command": "notebook:paste-cell-above", "rank": 2 },
+  //      { "command": "notebook:paste-and-replace-cell", "rank": 2 },
+  //      { "type": "separator", "rank": 2 },
+  //      { "command": "notebook:delete-cell", "rank": 3 },
+  //      { "type": "separator", "rank": 3 },
+  //      { "command": "notebook:select-all", "rank": 4 },
+  //      { "command": "notebook:deselect-all", "rank": 4 },
+  //      { "type": "separator", "rank": 4 },
+  //      { "command": "notebook:move-cell-up", "rank": 5 },
+  //      { "command": "notebook:move-cell-down", "rank": 5 },
+  //      { "type": "separator", "rank": 5 },
+  //      { "command": "notebook:split-cell-at-cursor", "rank": 6 },
+  //      { "command": "notebook:merge-cells", "rank": 6 },
+  //      { "command": "notebook:merge-cell-above", "rank": 6 },
+  //      { "command": "notebook:merge-cell-below", "rank": 6 },
+  //      { "type": "separator", "rank": 6 },
+  //      { "command": "editmenu:clear-current", "rank": 7 },
+  //      { "command": "editmenu:clear-all", "rank": 7 },
+  //      { "type": "separator", "rank": 7 },
+  //      { "command": "documentsearch:start", "rank": 8 },
+  //      { "command": "documentsearch:highlightNext", "rank": 8 },
+  //      { "command": "documentsearch:highlightPrevious", "rank": 8 },
+  //      { "type": "separator", "rank": 8 },
+  //      { "command": "editmenu:go-to-line", "rank": 9 }
+      ]
+    },
+    {
+  //    "disabled": false,
+      "id": "jp-mainmenu-view",
+      "label": "View",
+      "rank": 3,
+      "items": [
+  //      { "command": "apputils:activate-command-palette", "rank": 0 },
+  //      { "type": "separator", "rank": 0 },
+  //      { "command": "application:toggle-mode", "rank": 1 },
+  //      { "command": "application:toggle-presentation-mode", "rank": 1 },
+  //      { "type": "separator", "rank": 1 },
+  //      { "command": "statusbar:toggle", "rank": 2 },
+  //      { "type": "separator", "rank": 2 },
+  //      { "command": "application:toggle-left-area", "rank": 3 },
+  //      { "command": "application:toggle-right-area", "rank": 3 },
+  //      { "type": "separator", "rank": 3 },
+  //      { "command": "apputils:display-notifications", "rank": 4 },
+  //      { "command": "logconsole:open", "rank": 4 },
+  //      { "command": "debugger:show-panel", "rank": 4 }, ???
+  //      { "command": "filebrowser:toggle-hidden-files", "rank": 4 }, ???
+  //      { "type": "separator", "rank": 4 },
+  //      { "command": "viewmenu:line-numbering", "rank": 5 },
+  //      { "command": "viewmenu:match-brackets", "rank": 5 },
+  //      { "command": "viewmenu:word-wrap", "rank": 5 },
+  //      { "type": "separator", "rank": 5 },
+  //      { "command": "notebook:hide-cell-code", "rank": 6 },
+  //      { "command": "notebook:hide-cell-outputs", "rank": 6 },
+  //      { "command": "notebook:hide-all-cell-code", "rank": 6 },
+  //      { "command": "notebook:hide-all-cell-outputs", "rank": 6 },
+  //      { "type": "separator", "rank": 6 },
+  //      { "command": "notebook:show-cell-code", "rank": 7 },
+  //      { "command": "notebook:show-cell-outputs", "rank": 7 },
+  //      { "command": "notebook:show-all-cell-code", "rank": 7 },
+  //      { "command": "notebook:show-all-cell-outputs", "rank": 7 },
+  //      { "type": "separator", "rank": 7 },
+  //      { "command": "notebook:toggle-render-side-by-side-current", "rank": 8 },
+  //      { "type": "separator", "rank": 8 },
+  //      { "type": "submenu", "rank": 9,
+  //        "submenu": {
+  //          "id": "jp-mainmenu-view-codemirror-theme",
+  //          "label": "Text Editor Syntax Highlighting"
+  //        }
+  //      }
+      ]
+    },
+    {
+  //    "disabled": false,
+      "id": "jp-mainmenu-run",
+      "label": "Run",
+      "rank": 4,
+      "items": [
+  //      { "command": "runmenu:run", "rank": 0 },
+  //      { "type": "separator", "rank": 0 },
+  //      { "command": "notebook:run-cell-and-insert-below", "rank": 1 },
+  //      { "command": "notebook:run-cell", "rank": 1 },
+  //      { "command": "notebook:run-in-console", "rank": 1 },
+  //      { "type": "separator", "rank": 1 },
+  //      { "command": "notebook:run-all-above", "rank": 2 },
+  //      { "command": "notebook:run-all-below", "rank": 2 },
+  //      { "type": "separator", "rank": 2 },
+  //      { "command": "notebook:render-all-markdown", "rank": 3 },
+  //      { "type": "separator", "rank": 3 },
+  //      { "command": "runmenu:run-all", "rank": 4 },
+  //      { "command": "runmenu:restart-and-run-all", "rank": 4 },
+      ]
+    },
+    {
+  //    "disabled": false,
+      "id": "jp-mainmenu-kernel",
+      "label": "Kernel",
+      "rank": 5,
+      "items": [
+  //      { "command": "kernelmenu:interrupt", "rank": 0 },
+  //      { "type": "separator", "rank": 0 },
+  //      { "command": "kernelmenu:restart", "rank": 1 },
+  //      { "command": "kernelmenu:restart-and-clear", "rank": 1 },
+  //      { "command": "notebook:restart-and-run-to-selected", "rank": 1 },
+  //      { "command": "runmenu:restart-and-run-all", "rank": 1 },
+  //      { "type": "separator", "rank": 1 },
+  //      { "command": "debugger:restart-debug", "rank": 2 },
+  //      { "type": "separator", "rank": 2 },
+  //      { "command": "kernelmenu:reconnect-to-kernel", "rank": 3 },
+  //      { "type": "separator", "rank": 3 },
+  //      { "command": "kernelmenu:shutdown", "rank": 4 },
+  //      { "command": "kernelmenu:shutdownAll", "rank": 4 },
+  //      { "type": "separator", "rank": 4 },
+  //      { "command": "kernelmenu:change", "rank": 5 },
+      ]
+    },
+    {
+  //    "disabled": false,
+      "id": "jp-mainmenu-tabs",
+      "label": "Tabs",
+      "rank": 6,
+      "items": [
+  //      { "command": "application:activate-next-tab", "rank": 0 },
+  //      { "command": "application:activate-previous-tab", "rank": 0 },
+  //      { "command": "application:activate-next-tab-bar", "rank": 0 },
+  //      { "command": "application:activate-previous-tab-bar", "rank": 0 },
+  //      { "type": "separator", "rank": 0 },
+  //      { "command": "tabsmenu:activate-previously-used-tab", "rank": 0 }
+      ]
+    },
+    {
+  //    "disabled": false,
+      "id": "jp-mainmenu-settings",
+      "label": "Settings",
+      "rank": 7,
+      "items": [
+        { "type": "submenu", "rank": 0,
+  //        "submenu": {
+  //          "id": "jp-mainmenu-settings-apputilstheme",
+  //          "label": "Theme",
+  //          "rank": 0,
+  //          "items": [
+  //            { "type": "separator" },
+  //            { "command": "apputils:theme-scrollbars" },
+  //            { "type": "separator" },
+  //            { "command": "apputils:incr-font-size", "args": { "key": "code-font-size" } },
+  //            { "command": "apputils:decr-font-size", "args": { "key": "code-font-size" } },
+  //            { "type": "separator" },
+  //            { "command": "apputils:incr-font-size", "args": { "key": "content-font-size1" } },
+  //            { "command": "apputils:decr-font-size", "args": { "key": "content-font-size1" } },
+  //            { "type": "separator" },
+  //            { "command": "apputils:incr-font-size", "args": { "key": "ui-font-size1" } },
+  //            { "command": "apputils:decr-font-size", "args": { "key": "ui-font-size1" } },
+  //          ]
+  //        }
+        },
+  //      { "type": "separator", "rank": 0 },
+        { "type": "submenu", "rank": 1,
+  //        "submenu": {
+  //          "id": "jp-mainmenu-settings-language",
+  //          "label": "Language"
+  //        }
+        },
+  //      { "type": "separator", "rank": 1 },
+  //      { "command": "docmanager:toggle-autosave", "rank": 2 },
+  //      { "command": "docmanager:toggle-name-file-on-save", "rank": 2 }, ???
+  //      { "type": "separator", "rank": 2 },
+  //      { "command": "filebrowser:toggle-navigate-to-current-directory", "rank": 3 },
+  //      { "type": "separator", "rank": 3 },
+        { "type": "submenu", "rank": 4,
+  //        "submenu": {
+  //          "id": "jp-mainmenu-settings-consoleexecute",
+  //          "label": "Console Run Keystroke",
+  //          "items": [
+  //            { "command": "console:interaction-mode", "args": { ""interactionMode": "terminal"" } },
+  //            { "command": "console:interaction-mode", "args": { ""interactionMode": "notebook"" } }
+  //          ]
+  //        }
+        },
+  //      { "type": "separator", "rank": 4 },
+  //      ??? ... ???
+        { "type": "submenu", "rank": 5,
+  //        "submenu": {
+  //          "id": "jp-mainmenu-view-codemirror-keymap",
+  //          "label": "Text Editor Key Map",
+  //          "items": [
+  //            { "command": "codemirror:change-keymap", "args": { ""keyMap": "default"" } },
+  //            { "command": "codemirror:change-keymap", "args": { ""keyMap": "sublime"" } },
+  //            { "command": "codemirror:change-keymap", "args": { ""keyMap": "vim"" } },
+  //            { "command": "codemirror:change-keymap", "args": { ""keyMap": "emacs"" } }
+  //          ]
+  //        }
+        },
+        { "type": "submenu", "rank": 5,
+  //        "submenu": {
+  //          "id": "jp-mainmenu-view-codemirror-theme",
+  //          "label": "Text Editor Theme",
+  //          "items": [
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "jupyter"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "default"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "abcdef"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "base16-dark"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "base16-light"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "hopscotch"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "material"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "mbo"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "mdn-like"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "seti"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "solarized dark"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "solarized light"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "the-matrix"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "xq-light"" }
+  //            },
+  //            {
+  //              "command": "codemirror:change-theme",
+  //              "args": { ""theme": "zenburn"" }
+  //            }
+  //          ]
+  //        }
+        },
+  //      { "type": "separator", "rank": 5 },
+  //      ??? ... ???
+  //      { "type": "separator", "rank": 6 },
+  //      { "command": "extensionmanager:toggle", "rank": 7 },
+  //      { "type": "separator", "rank": 7 },
+  //      { "command": "settingeditor:open", "rank": 8 },
+      ]
+    },
+    {
+  //    "disabled": false,
+      "id": "jp-mainmenu-help",
+      "label": "Help",
+      "rank": 8,
+      "items": [
+  //      { "command": "help:about", "rank": 0 },
+  //      { "type": "separator", "rank": 0 },
+  //      { "command": "help:licenses", "rank": 1 },
+  //      { "type": "separator", "rank": 1 },
+  //      { "command": "inspector:open", "rank": 2 },
+  //      { "type": "separator", "rank": 2 },
+  //      { "command": "help:launch-classic-notebook", "rank": 3 },
+  //      { "type": "separator", "rank": 3 },
+  //      { "command": "help:jupyter-forum", "rank": 4 },
+  //      { "type": "separator", "rank": 4 },
+  //      ???
+      ]
+    }
+  ]
+}
